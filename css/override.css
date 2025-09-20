@@ -4,8 +4,8 @@ hr {
 }
 
 .post_navi {
-  display: flex;
-  justify-content: space-between;
+  display: flex !important;
+  justify-content: space-between !important;
   align-items: center;
 }
 
