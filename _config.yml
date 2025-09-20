@@ -30,6 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
