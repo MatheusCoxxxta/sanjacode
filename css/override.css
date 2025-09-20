@@ -85,9 +85,21 @@ hr {
 }
 
 .cover-image {
-  display: block;
-  width: 100%;
-  max-height: 400px;   /* adjust as needed */
-  object-fit: cover;   /* crops nicely */
-  margin: 0 auto 20px auto;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 40px auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #444;
+  text-align: center;
 }
