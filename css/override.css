@@ -54,4 +54,5 @@ hr {
   margin-right: -50vw;
   max-height: 400px;
   object-fit: cover;
+  filter: blur(8px);
 }
