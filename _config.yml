@@ -18,7 +18,7 @@ linkedin_username: "omatheus-costa"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: cotes2020/jekyll-theme-chirpy
 
 rss: rss
 
@@ -30,7 +30,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
