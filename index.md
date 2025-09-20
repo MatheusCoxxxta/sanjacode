@@ -1,8 +1,7 @@
-
-![cover](/assets/images/cover.png){: .cover-image }
-
-<div class="intro">
-  <p>Here you can say lots of fun things about your site.</p>
-  <p>Maybe say some things about yourself.</p>
-  <p>Or maybe what you plan to blog about.</p>
+<div class="header">
+  <img src="/assets/images/cover.png" alt="cover" class="cover-image">
+  <div class="header-content">
+    <h1>Welcome to SanjaCode</h1>
+    <p>Sharing thoughts, tutorials, and experiments on coding.</p>
+  </div>
 </div>
