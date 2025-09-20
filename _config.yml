@@ -1,6 +1,6 @@
 title: "SanjaCode"
 author: "Matheus Costa"
-description: "Escrevendo algumas coisas que venho lidando no dia-a-dia"
+description: "Escrevendo algumas coisas que venho lidando no dia"
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -18,7 +18,7 @@ linkedin_username: "omatheus-costa"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: cotes2020/jekyll-theme-chirpy
+theme: "cotes2020/jekyll-theme-chirpy"
 
 rss: rss
 
@@ -29,7 +29,6 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
 
 titles_from_headings:
   strip_title: true
