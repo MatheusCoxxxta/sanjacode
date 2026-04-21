@@ -5,7 +5,7 @@ tags:
 ---
 
 # Índices de bancos de dados
-
+![cover](/assets/images/space01.png){: .cover-image }
 ## Definição e conceito
 
 Index é a forma como chamamos comumente o relacionamento que direciona a engine do banco de dados para o endereço em disco de uma tupla filtrando pelo valor de colunas pré-definidas que são consideradas de alta frequência de filtro.

@@ -1,2 +1,2 @@
 
-![cover](/assets/images/cover.png){: .cover-image }
+![cover](/assets/images/cover2.png){: .cover-image }
