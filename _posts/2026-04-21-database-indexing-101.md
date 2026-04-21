@@ -4,6 +4,8 @@ date: 2026-04-21 18:30:00
 tags:
 ---
 
+# Índices de bancos de dados
+
 ## Definição e conceito
 
 Index é a forma como chamamos comumente o relacionamento B-tree que direciona a engine do banco de dados para o endereço em disco de uma tupla filtrando pelo valor de colunas pré-definidas que são consideradas de alta frequência de filtro.
@@ -119,5 +121,5 @@ Podemos determinar que 1-2% de tempo de processamento não é um custo alto para
 
 ## Conclusão
 
-Indices são de extrema importancia, mas pode envolver alguns trade-offs. Conhecer nosso sistemas a nível de fluxos de negócio e métricas de utilização será de extrema importância para tomar as melhores decisões. 
+Índices são de extrema importancia, mas pode envolver alguns trade-offs. Conhecer nosso sistemas a nível de fluxos de negócio e métricas de utilização será de extrema importância para tomar as melhores decisões. 
 Ferramentas como Prometheus e Cloudwatch podem te ajudar com o levantamento de métricas do sistema e gargalos de performance, agentes de AI podem te ajudar com analise inicial de endpoints e analise temporal de migrations para acelerar o entendimento de detalhes do sistema. Nem sempre precisamos de um indice, mas não deixe seu usuário reparar a falta dele em locais indispensáveis, e nem possibilite lentidão de processos sequênciais por leituras não performáticas.
