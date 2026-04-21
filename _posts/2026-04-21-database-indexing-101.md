@@ -8,7 +8,7 @@ tags:
 
 ## Definição e conceito
 
-Index é a forma como chamamos comumente o relacionamento B-tree que direciona a engine do banco de dados para o endereço em disco de uma tupla filtrando pelo valor de colunas pré-definidas que são consideradas de alta frequência de filtro.
+Index é a forma como chamamos comumente o relacionamento que direciona a engine do banco de dados para o endereço em disco de uma tupla filtrando pelo valor de colunas pré-definidas que são consideradas de alta frequência de filtro.
 
 Indefiticamos colunas que são muito utilizadas para filtro, pedimos para o banco registrar os valores da coluna junto a um ponteiro para o endereço em disco da tupla. Quando precisamos de uma busca pela coluna, o banco utilizará esse indice para otimizar a busca já iniciando com o endereço da tupla em mãos após uma rapida busca no indice.
 
